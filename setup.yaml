@@ -18,4 +18,4 @@ restore:
     url: 'https://www.ecloudcontrol.com/wp-content/uploads/2021/06/accountsdb-springboot.sql_.zip'
   user: postgress
   password: $POSTGRESQL_PASSWORD
-  token: 20210618-0903
+  token: 20210618-0954
