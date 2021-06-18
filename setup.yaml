@@ -13,7 +13,7 @@ databases:
         authorised_user: springbootweb
         search_path: true
 restore:
-- database: springbootweb
+- database: postgres
   source:
     url: 'https://www.ecloudcontrol.com/wp-content/uploads/2021/06/accountsdb-springboot.sql_.zip'
   user: postgress
