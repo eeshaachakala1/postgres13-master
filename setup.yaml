@@ -15,7 +15,9 @@ databases:
 restore:
 - database: postgres
   source:
-    url: 'https://www.ecloudcontrol.com/wp-content/uploads/2021/06/accountsdb-springboot.sql_.zip'
+    url: 'https://webdav-2-0/all_db_2021_06_18_10_01.sql'
+    user: appz
+    password: $DAV_USERPASSWORD
   user: postgress
   password: $POSTGRESQL_PASSWORD
   token: 20210618-0954
