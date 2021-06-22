@@ -13,11 +13,9 @@ databases:
         authorised_user: springbootweb
         search_path: true
 restore:
-- database: postgres
+- database: springbootweb
   source:
-    url: 'http://webdav-2-0/all_db_2021_06_18_10_01.sql'
-    user: appz
-    password: $DAV_USERPASSWORD
-  user: postgress
-  password: $POSTGRESQL_PASSWORD
-  token: 20210622-0839
+    url: 'https://www.ecloudcontrol.com/wp-content/uploads/2021/06/accountsdb-springboot.sql_.zip'
+  user: springbootweb
+  password: $POSTGRESQL_SPRINGBOOTWEB_PASSWORD
+  token: 20210622-0840
